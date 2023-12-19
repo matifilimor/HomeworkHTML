@@ -1,0 +1,52 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: chocolate;
+    color: #333;
+    margin: 20px;
+    font-size: 10px;
+}
+
+/*Clases*/
+
+.equipo {
+    border: 2px solid red;
+    width: 25em;
+    font-size: 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.escudos {
+    width: 20em;
+    height: 12em;
+}
+.nombreEquipo {
+    font-size: 2em;
+    color: darkblue;
+}
+
+.equipo:hover{
+    background-color: gold;
+    transition: 1s;
+}
+/*id's*/
+
+#titulo {
+    color: chartreuse;
+    font-size: 3em;
+    margin: auto;
+    width: fit-content;
+}
+
+#equipos {
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
